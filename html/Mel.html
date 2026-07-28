@@ -9,8 +9,12 @@
 <body>
     <header>
         <a href="#" class="logo">Chrust.</a>
-
-        <nav>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-menu" id="nav-menu">
             <a href="#home" class="active">Home</a>
             <a href="#contact">Contact</a>
             <a href="#parcours">Parcours</a>
@@ -30,6 +34,7 @@
                     <a href="https://facebook.com/ChrustMelvynnMila"><img src="/images/Facebook.jpg.png" alt=""></a>
                     <a href="https://www.tiktok.com/@ChrustMelvynnMILA"><img src="/images/Tiktok.jpg.png" alt=""></a>
                     <a href="https://www.instagram.com/chrust05"><img src="/images/instagram.jpg.png" alt=""></a>
+                    <a href="https://github.com/Melvynn05"><img src="/images/Git.png" alt=""></a>
                 </div>
                 <a href="#contact" class="btn">Hire me</a>
             </div>
@@ -50,27 +55,87 @@
             </div>
         </section>
         <section id="parcours">
+            <div class="skills">
+                <h2 class="education">EDUCATION</h2>
+                <STYle>
+                    body {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 0;
+                        font-family: 'segoee UI', Arial, sans;
+                    }
+                    .education {
+                        margin-top: -30px;
+                        margin-left: 300px;
+                        font-size: 50px;
+                        color: red;
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+                        text-shadow: 
+                            0 0 10px rgba(167, 5, 73, 0.6),
+                            0 0 20px rgba(252, 38, 0, 0.4),
+                            0 0 40px rgba(252, 0, 0, 0.2);
+                    }
+                    @media(max-width:995px){
+                        .skills{
+                            margin-top: -50px;
+                            margin-left: -300px;
+                        }
+                    }
+                </STYle>
+            </div>
             <div class="parcours">
                 <h1>Etablissement</h1><br>
                 <img src="/images/parcours.png" alt=""><h3>Ecole Nationale D'informatique </h3><br><br>
                 <h1>Parcours</h1><br>
+                <img src="/images/homme.png" alt="">
                 <h3>Informatique Géneral</h3>
             </div>
         </section>
         <section id="competences">
-            <div>
+            <h2 class="competences">COMPETENCES</h2>
+              <style>
+                .competences {
+                        text-align: center;
+                        font-size: 50px;
+                        margin-bottom: 50px;
+                        color: red;
+                        letter-spacing: 3px;
+                        text-transform: uppercase;
+                        text-shadow: 
+                            0 0 10px rgba(167, 5, 73, 0.6),
+                            0 0 20px rgba(252, 38, 0, 0.4),
+                            0 0 40px rgba(252, 0, 0, 0.2);
+                        }
+                    @media(max-width:999px){
+                        #competences{
+                            margin-left: -50px;
+                            padding: 60px 5%;
+                        }
+                        .competences{
+                            font-size: 50px;
+                            margin-bottom: 30px;
+                        }
+                        .skills{
+                            margin-top: -48px;
+                            margin-left: -150px;
+                        }
+                    }
+                </style>
+            <div class="oley">
                 <img class="html" src="/images/css-3 (1).png" alt="">
                     <hr>
-                    <h3>Maitrise de HTML : 75%</h3>
+                    <h3 class="HT">Maitrise de HTML : <i>75%</i></h3>
                     <hr>
                 <img class="css" src="/images/css-3.png" alt="">
                     <hr>
-                    <h3 class="cs">Maitrise de CSS : 68%</h3>
+                    <h3 class="cs">Maitrise de CSS : <i>68%</i></h3>
                     <hr>
                 <img class="JS" src="/images/technology.png" alt="">
                     <hr>
-                    <h3 class="J">Maitrise de JS : 60%</h3>
-                <img class="oley" src="/images/Oley.jpg" alt="">
+                    <h3 class="J">Maitrise de JS : <i>60%</i></h3>
+                <img class="iaho" src="/images/Oley.jpg" alt="">
             </div>
         </section>
     </main>
